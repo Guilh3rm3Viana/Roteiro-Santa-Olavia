@@ -1,0 +1,31 @@
+.intro{
+    display: grid;
+    height: 1200px;
+    background-color: rgb(246, 246, 246);
+    align-items: center;
+}
+
+.txt-1, .txt-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.title-txt-1, .title-txt-2, .title-txt-3,
+ .title-alojamento{
+    font-size: 36px;
+}
+
+.txt-alojamento{
+    line-height: 30px;
+}
+
+.txt-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.txt-1-img, .txt-2-img, .txt-3-img{
+    height: 400px;
+    margin: 10px;
+}
+
